@@ -87,6 +87,11 @@
             flex: 1;
         }
 
+/* Darken the OpenStreetMap basemap */
+.leaflet-tile-pane {
+    filter: invert(90%) hue-rotate(180deg) brightness(75%) contrast(90%);
+}
+
 .map-footer {
     background-color: var(--black-2);
     color: var(--silver);
