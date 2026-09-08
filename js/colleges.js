@@ -573,7 +573,7 @@
                 mapsLink: "https://maps.google.com/?q=143+Main+Street,+Buies+Creek,+North+Carolina"
             },
             {
-                id: "ncatsu",
+                id: "ncat",
                 name: "North Carolina Agricultural and Technical State University",
                 subtitle: "Expansion Candidate",
                 exists: false,
@@ -949,20 +949,7 @@
         bio: "Private liberal arts college in Brevard.",
         mapsLink: "https://maps.google.com/?q=1+Brevard+College+Drive,+Brevard,+North+Carolina"
     },
-    {
-        id: "salemcollege",
-        name: "Salem College",
-        subtitle: "Minimal / No Greek Life",
-        exists: false,
-        active: false,
-        founded: "",
-        locationName: "601 South Church Street, Winston-Salem, North Carolina",
-        coordinates: [36.0898,-80.2401],
-        logo: "images/pspexpansion.png",
-        bio: "Private women's college in Winston-Salem.",
-        mapsLink: "https://maps.google.com/?q=601+South+Church+Street,+Winston-Salem,+North+Carolina"
-    },
-
+    
 
                 
             
@@ -1403,19 +1390,6 @@
         mapsLink: "https://maps.google.com/?q=1200+Park+Road,+Harrisonburg,+Virginia"
     },
     {
-        id: "sweetbriar",
-        name: "Sweet Briar College",
-        subtitle: "Minimal / No Greek Life",
-        exists: false,
-        active: false,
-        founded: "",
-        locationName: "134 Chapel Road, Sweet Briar, Virginia",
-        coordinates: [37.5568,-79.0814],
-        logo: "images/pspexpansion.PNG",
-        bio: "Private women's liberal arts college with alternative student organizations.",
-        mapsLink: "https://maps.google.com/?q=134+Chapel+Road,+Sweet+Briar,+Virginia"
-    },
-    {
         id: "christendom",
         name: "Christendom College",
         subtitle: "Minimal / No Greek Life",
@@ -1427,19 +1401,6 @@
         logo: "images/pspexpansion.PNG",
         bio: "Private Catholic liberal arts college in Front Royal.",
         mapsLink: "https://maps.google.com/?q=134+Christendom+Drive,+Front+Royal,+Virginia"
-    },
-    {
-        id: "hollins",
-        name: "Hollins University",
-        subtitle: "Minimal / No Greek Life",
-        exists: false,
-        active: false,
-        founded: "",
-        locationName: "7916 Williamson Road, Roanoke, Virginia",
-        coordinates: [37.3418,-79.9469],
-        logo: "images/pspexpansion.PNG",
-        bio: "Private women's university in Roanoke.",
-        mapsLink: "https://maps.google.com/?q=7916+Williamson+Road,+Roanoke,+Virginia"
     },
 
                 
@@ -1724,19 +1685,7 @@
         bio: "Private Catholic university in Center Valley.",
         mapsLink: "https://maps.google.com/?q=2755+Station+Avenue,+Center+Valley,+Pennsylvania"
     },
-    {
-        id: "cedarcrest",
-        name: "Cedar Crest College",
-        subtitle: "Expansion Candidate",
-        exists: false,
-        active: false,
-        founded: "",
-        locationName: "100 College Drive, Allentown, Pennsylvania",
-        coordinates: [40.5969,-75.5076],
-        logo: "images/pspexpansion.PNG",
-        bio: "Private women's college in Allentown.",
-        mapsLink: "https://maps.google.com/?q=100+College+Drive,+Allentown,+Pennsylvania"
-    },
+
     {
         id: "kutztown",
         name: "Kutztown University",
@@ -2503,19 +2452,6 @@
         logo: "images/pspexpansion.PNG",
         bio: "Private liberal arts college with no traditional Greek organizations.",
         mapsLink: "https://maps.google.com/?q=370+Lancaster+Avenue,+Haverford,+Pennsylvania"
-    },
-    {
-        id: "brynmawr",
-        name: "Bryn Mawr College",
-        subtitle: "Minimal / No Greek Life",
-        exists: false,
-        active: false,
-        founded: "",
-        locationName: "101 North Merion Avenue, Bryn Mawr, Pennsylvania",
-        coordinates: [40.0266,-75.3149],
-        logo: "images/pspexpansion.PNG",
-        bio: "Women's liberal arts college with no traditional Greek system.",
-        mapsLink: "https://maps.google.com/?q=101+North+Merion+Avenue,+Bryn+Mawr,+Pennsylvania"
     },
     {
         id: "messiah",
