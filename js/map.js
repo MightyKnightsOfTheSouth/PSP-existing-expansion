@@ -1,3 +1,4 @@
+```javascript
 // Create Map
 const map = L.map('map', {
     center: [37.3,-77.8],
@@ -5,11 +6,10 @@ const map = L.map('map', {
     minZoom: 3
 });
 
-// Dark-themed map layer
-L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-    maxZoom: 20,
+// OpenStreetMap tiles
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution:
-        '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a> ' +
-        '&copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> ' +
-        '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19
 }).addTo(map);
+```
