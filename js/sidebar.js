@@ -193,29 +193,48 @@ function renderSidebar() {
 
 
 // OPEN PROFILE LOCATION
-function focusLocation(college, triggerPopup=true) {
-
+function focusLocation(college, triggerPopup = true) {
 
     const targetZoom = 13;
 
-    const markerObj =
-        markerMap.get(college.id);
+    const markerObj = markerMap.get(college.id);
 
+    const latLng = L.latLng(college.coordinates);
 
+    // Highlight selected sidebar card
+    document
+        .querySelectorAll('.sidebar-card')
+        .forEach(card => {
+            card.classList.remove('active-card');
+        });
 
-    const latLng =
-        L.latLng(college.coordinates);
+    const selectedCard = document.getElementById(
+        `sidebar-card-${college.id}`
+    );
 
+    if (selectedCard) {
+        selectedCard.classList.add('active-card');
+    }
 
+    // Wait until the map finishes moving before opening popup
+    map.once("moveend", () => {
 
+        if (triggerPopup && markerObj) {
+            markerObj.marker.openPopup();
+        }
+
+    });
+
+    // Move to selected location
     map.flyTo(
         latLng,
         targetZoom,
         {
-            duration:1.2
+            duration: 1.2
         }
     );
 
+}
 
 
     document
