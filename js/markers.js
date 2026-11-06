@@ -133,9 +133,41 @@ function loadMarkers() {
 
 
 
-marker.on("popupopen",()=>{
+marker.on("popupopen", () => {
 
     hoverCard.style.display = "none";
+
+    requestAnimationFrame(() => {
+
+        const popupElement = marker.getPopup().getElement();
+
+        if (!popupElement) return;
+
+        const mapRect = map.getContainer().getBoundingClientRect();
+        const popupRect = popupElement.getBoundingClientRect();
+
+        // Find the center of the map window
+        const mapCenterX = mapRect.left + mapRect.width / 2;
+        const mapCenterY = mapRect.top + mapRect.height / 2;
+
+        // Find the center of the popup
+        const popupCenterX = popupRect.left + popupRect.width / 2;
+        const popupCenterY = popupRect.top + popupRect.height / 2;
+
+        // Calculate how far the map needs to move
+        const offsetX = popupCenterX - mapCenterX;
+        const offsetY = popupCenterY - mapCenterY;
+
+        // Move the map so the popup is centered
+        map.panBy(
+            [offsetX, offsetY],
+            {
+                animate: true,
+                duration: 0.35
+            }
+        );
+
+    });
 
 });
 
