@@ -505,7 +505,7 @@
                 coordinates: [35.7872,-78.6705],
                 logo: "images/pspexpansion.PNG",
                 bio: "Public research university in Raleigh and part of the University of North Carolina system.",
-                mapsLink: "https://maps.google.com"
+                mapsLink: "https://www.google.com/maps/search/?api=1&query=North+Carolina+State+University"
             },
             {
                 id: "duke",
@@ -518,7 +518,7 @@
                 coordinates: [36.0014,-78.9382],
                 logo: "images/pspexpansion.PNG",
                 bio: "Private research university located in Durham.",
-                mapsLink: "https://maps.google.com"
+                mapsLink: "https://www.google.com/maps/search/?api=1&query=Duke+University"
             },
             {
                 id: "nccu",
@@ -531,7 +531,7 @@
                 coordinates: [35.9747,-78.8986],
                 logo: "images/pspexpansion.PNG",
                 bio: "Historically Black public university in Durham.",
-                mapsLink: "https://maps.google.com"
+                mapsLink: "https://www.google.com/maps/search/?api=1&query=North+Carolina+State+University"
             },
             {
                 id: "shaw",
