@@ -841,7 +841,7 @@
                 founded: "",
                 locationName: "1200 Murchison Road, Fayetteville, North Carolina",
                 coordinates: [35.0736,-78.8920],
-                logo: "images/pspexpansion.png",
+                logo: "images/pspexpansion.PNG",
                 bio: "Historically Black public university in Fayetteville.",
                 mapsLink: "https://maps.google.com/?q=1200+Murchison+Road,+Fayetteville,+North+Carolina"
             },
@@ -906,7 +906,7 @@
         founded: "",
         locationName: "5800 West Friendly Avenue, Greensboro, North Carolina",
         coordinates: [36.0927,-79.8920],
-        logo: "images/pspexpansion.png",
+        logo: "images/pspexpansion.PNG",
         bio: "Private liberal arts college in Greensboro with minimal Greek life.",
         mapsLink: "https://maps.google.com/?q=5800+West+Friendly+Avenue,+Greensboro,+North+Carolina"
     },
@@ -919,7 +919,7 @@
         founded: "",
         locationName: "701 Warren Wilson Road, Swannanoa, North Carolina",
         coordinates: [35.6054,-82.4388],
-        logo: "images/pspexpansion.png",
+        logo: "images/pspexpansion.PNG",
         bio: "Private liberal arts college near Asheville with no traditional Greek system.",
         mapsLink: "https://maps.google.com/?q=701+Warren+Wilson+Road,+Swannanoa,+North+Carolina"
     },
@@ -932,7 +932,7 @@
         founded: "",
         locationName: "310 Gaither Circle, Montreat, North Carolina",
         coordinates: [35.6467,-82.2998],
-        logo: "images/pspexpansion.png",
+        logo: "images/pspexpansion.PNG",
         bio: "Private Christian college located in Montreat.",
         mapsLink: "https://maps.google.com/?q=310+Gaither+Circle,+Montreat,+North+Carolina"
     },
@@ -945,7 +945,7 @@
         founded: "",
         locationName: "1 Brevard College Drive, Brevard, North Carolina",
         coordinates: [35.2338,-82.7331],
-        logo: "images/pspexpansion.png",
+        logo: "images/pspexpansion.PNG",
         bio: "Private liberal arts college in Brevard.",
         mapsLink: "https://maps.google.com/?q=1+Brevard+College+Drive,+Brevard,+North+Carolina"
     },
